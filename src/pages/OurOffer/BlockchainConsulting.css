@@ -1,0 +1,356 @@
+.UpContainer{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+/* position: relative; */
+padding:0 50px;
+}
+.TwoDivs{
+display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.jarOne{
+flex: 1 0 396px;
+
+  
+}
+.jarTwo{
+    position: relative;
+    /* background-color: #ED0000; */
+    width: 420px;
+}
+
+
+.ContainerBC{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+padding: 0 78px;
+}
+.item{
+
+  flex: 1 0 396px;
+padding: 25px 30px;
+    /* margin-top: 30px; */
+    background: #FFFFFF;
+    border: 1px solid rgba(217, 219, 233, 1);
+    box-shadow: 0 1px 8px rgba(184, 180, 180, 0.25);
+    border-radius: 13px;
+    box-sizing: border-box;
+    height: 298px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.lastitem{
+    flex: 3 0 794px;
+        /* background-color: #ED0000; */
+}
+.TileContactUs {
+    flex: 1 0 396px;
+    /* padding: 0 10px; */
+    text-align: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background: #F6F7FF;
+    height: 298px;
+    border-radius: 13px;
+    /* box-shadow: 0 1px 8px rgba(184, 180, 180, 0.25); */
+}
+/* .item:last-child {
+    width: 100%;
+} */
+
+.Chapter{
+ /* width: 1270px; */
+margin-bottom: 120px;
+}
+.LeftContent{
+display: flex;
+flex-direction: column;
+}
+.DivImgRight{
+max-width: 395px;
+    height: 297px;
+    /* position: relative; */
+}
+.ImgRight{
+position: absolute;
+max-width: 395px;
+height: 297px;
+right: 0px;
+
+}
+.MainHeader{
+font-family: 'Satoshi-Medium';
+color: #141415;
+font-style: normal;
+font-weight: 700;
+font-size: 52px;
+line-height: 74px;
+margin-top: 30px;
+margin-bottom: 37px;
+}
+
+.SubHeader{
+font-family: 'Satoshi-Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 46px;
+color: #141415;
+margin: 0 auto 40px auto;
+
+
+}
+.DescriptionHeader{
+/* width: 763px; */
+word-wrap: break-word;
+}
+
+.TextDescriptionHeder{
+color: #141415;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+font-family: 'Satoshi';
+
+}
+
+.aBookFreeConsultation {
+text-decoration: none;
+color: #fff;
+padding: 20px 35px 20px 35px ;
+border-radius: 6px;
+font-size: 18px;
+cursor: pointer;
+background-color: red;
+margin-top: 57px;
+margin-bottom: 107px;
+font-family: 'Satoshi-Medium';
+}
+
+.aBookFreeConsultation:hover {
+background-color: #7d0f0f;
+}
+
+.divQuestion{
+color: #141415;
+font-family: 'Satoshi-Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+display: flex;
+
+}
+.aButtonLernMoreBC {
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    color: #ED0000;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    cursor: pointer;
+    font-family: 'Satoshi-Bold';
+    margin-left: 30px;
+    margin-bottom: 30px;
+
+}
+.aButtonLernMoreBC:hover {
+    color: #7d0f0f;
+}
+.ButtonLearnMoreBC{
+    position: absolute;
+    left: 0px;
+bottom: 0px;
+}
+
+.HederTile{
+color: #141415;
+margin-bottom: 0px;
+font-family: 'Satoshi-Medium';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+margin-top:0;
+
+}
+.TextTile{
+color: #000000;
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+
+}
+.ButtonContactUs:hover{
+    background-color: #7d0f0f;
+    cursor: pointer;
+}
+.DivContactUs{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.ButtonContactUs{
+text-decoration: none;
+color: #fff;
+padding: 17px 45px 17px 45px ;
+border-radius: 6px;
+font-size: 18px;
+cursor: pointer;
+background-color: red;
+margin-top: 40px;
+font-family: 'Satoshi-Medium';
+}
+.ImgBubbleContactUs{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 224px;
+    border-bottom-right-radius: 13px;
+display: flex;
+/* przesuwanie wierzchołków pierwszy lewy górny i wg wskazówek zegara (0 procent w poziomie 50% do dołu itd) */
+clip-path: polygon(0 50%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../../../public/OTF/Satoshi-Medium.otf');
+}
+@media screen and (min-width: 20px) and (max-width: 1383px) {
+
+    .lastitem{
+        flex:1 0 396px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .HederTile{
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 679px) {
+    .item{
+        height: unset;
+    }
+    .TileContactUs{
+        height: unset;
+            margin-bottom: 10px;
+    }
+    .ButtonLearnMoreBC{
+        position: unset;
+    }
+    .aButtonLernMoreBC{
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 680px) and (max-width: 972px)  {
+        .item {
+
+                height: 350px;
+        
+            }
+            .TileContactUs{
+                height: 350px;
+                margin-bottom: 10px;
+            }
+}
+
+@media screen and (min-width: 200px) and (max-width: 972px) {
+    
+    .BackToOffer1{
+        margin-top: 20px;
+    }
+    .BookFreeConsultationDiv{
+        display: flex;
+        justify-content: center;
+    }
+    .MainHeader{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .DescriptionHeader{
+        text-align: center;
+    }
+    .UpContainer{
+        padding: 0 10px;
+
+    }
+    .jarTwo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+   
+        position: static;
+            width: 100%;
+    }
+    .ImgRight{
+        position: static;
+        width: 100%;
+    }
+    .ContainerBC{
+        padding: 0 10px;
+    }
+.jarOne{
+    flex: 1 0 320px;
+}
+    .ImgRight{
+        /* width: 100%; */
+    }
+    .item{
+        flex:1 0 320px;
+        /* height: 350px; */
+        
+    }
+    .lastitem{
+            flex: 1 0 320px;
+                /* height: 350px; */
+    }
+    .divQuestion{
+text-align: center;
+    }
+    .TileContactUs{
+        flex:1 0 320px;
+        height: 350px;
+    }
+    .SubHeader{
+        text-align: center;
+        margin-top: 50px;
+    }
+}
+@media screen and (min-width: 0px) and (max-width: 1099px) {
+    /* .ButtonLearnMoreBC{
+        position: unset;
+    } */
+}

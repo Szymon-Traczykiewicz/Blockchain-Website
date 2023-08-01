@@ -1,0 +1,23 @@
+.CONTAINER_TRADLO{
+margin-top: 15px;
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 110px;
+
+
+}
+.ContainerLetters{
+display: flex;
+flex-direction: row;
+}
+
+.CaptionImg{
+display: flex;
+flex-direction: row;
+scale:1.09;
+margin-top: 6px;
+}
+.SingleLetter{
+scale: 1.09;
+}

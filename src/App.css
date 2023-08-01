@@ -1,0 +1,304 @@
+body{
+background-color: #fff;
+margin-top: 90px;
+}
+.cardApp{
+position: relative;
+/* overflow: hidden; */
+
+}
+.open{
+
+transition: 0.5s transform ease-in-out ;
+padding: 0 10px;
+background-color: #EFF0F5;
+/* transition: cubic-bezier(0.075, 0.82, 0.165, 1); */
+/* position: absolute; */
+display: flex;
+/* justify-content: center; */
+bottom: 0px;
+position: fixed;
+z-index: 1;
+width: 100%;
+
+}
+.open2{
+background-color: #EFF0F5;
+position: fixed;
+z-index: 1;
+width: 100%;
+display: flex;
+flex-direction: column;
+
+}
+
+.dropdown-content {
+max-height: 150px;
+/* overflow-y: auto; */
+}
+.dropdown-content>li::marker{
+  content: none;
+}
+.HamburgerMenu{
+display: flex;
+flex-direction: column;
+gap: 20px;
+padding: 20px 0;
+margin: 0;
+}
+
+.buttonOffer{
+position: fixed;
+right: 20px;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+.toggle-btn{
+width: 48px;
+height: 48px;
+background-color: #141429;
+color: #fff;
+text-align: center;
+justify-content: center;
+align-items: center;
+font-size: 23px;
+border-radius: 25px;
+display: flex;
+right: 10px;
+bottom: 20px;
+position: fixed;
+z-index: 1;
+
+}
+.TopMenu{
+  margin-bottom: 70px;
+}
+.Navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: fixed;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  top: 0;
+  width: 1425px;
+  z-index: 1;
+background-color: #fff;
+}
+.LogoNeti {
+  width: 126px;
+  height: 47px;
+  transition: transform 0.25s;
+  margin-left: 40px;
+  cursor: pointer;
+  margin-top: 0;
+  
+}
+
+.LogoNeti:hover {
+  transition: 1s;
+  transform: translateY(-6px);
+  transition: transform 0.25s ease-out 0.25s;
+}
+.TabsNavigation {
+  width: 612px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+a{
+  text-decoration: none;
+  color:unset;
+}
+.SingleTab::marker{
+  
+  content: none;
+}
+.SingleTab {
+  list-style-type: none;
+  padding-left: 5px;
+  font-family: 'Satoshi-Regular';
+  position: relative;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #222238;
+}
+.DropDown>li::marker {
+ content: none;
+ list-style-type: none;
+ 
+
+}
+.DropDown>li{
+padding-left: 0;
+}
+.DropDown {
+display: none;
+position: absolute;
+/* top: 100%; */
+left: 0;
+width: 275px;
+align-items: center;
+/* margin-top: 10px; */
+background-color: #ffffff;
+flex-wrap: wrap;
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.SingleTab:hover .DropDown {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.DropDown .a {
+  /* display: block; */
+  /* font-size: 14px; */
+  /* color: #333; */
+  /* text-decoration: none; */
+  /* align-items: center; */
+  
+}
+.aDropDown>::marker
+{
+  content: none;
+  
+}
+.aDropDown {
+  color: #14142b;
+  display: block;
+  /* align-items: center; */
+  /* text-align: center; */
+  /* justify-content: center; */
+  padding: 12px 0px 0px 0px;
+  margin: 0 auto;
+  content: none;
+  text-decoration: none;
+
+}
+
+/* .open2>ul{
+  padding: 0;
+} */
+.dropdown-content>li{
+  padding: 0;
+}
+.aDropDown:hover {
+  transition: 0.5s;
+  background-color:  hsl(210, 10%, 96%);
+  /* width: 100%; */
+  /* display: block; */
+  color: #222238;
+  
+  
+}
+
+.aContactUs:hover{
+  text-decoration: none;
+  color: #fff;
+  background-color: #7d0f0f;
+}
+.aContactUs{
+  text-decoration: none;
+  color: #fff;
+  width: 115px;
+  height: 35px;
+  border-radius: 6px;
+  margin-right: 81px;
+  margin-top: 2px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+cursor: pointer;
+background-color: red;
+
+}
+.ContactUs:active {
+  /* transform: translateY(2px); */
+}
+
+/* .ContactUs:hover {
+  background-color: rgb(245, 151, 151);
+} */
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../public/OTF/Satoshi-Regular.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../public/OTF/Satoshi-Medium.otf');
+}
+
+@media screen and (min-width: 30px) and (max-width: 1299px){
+  .TabsNavigation{
+    display: none;
+  }
+  .aDropDown{
+    text-align: unset;
+  }
+
+  .Navigation{
+    display: flex;
+    flex-direction: row;
+height: 55px;
+    align-items: unset;
+    width: 100%;
+  }
+
+.LogoNeti:hover {
+  transition: none;
+  transform: translateY(0px);
+  transition: transform 0.0s ease-out 0.0s;
+}
+  .ContactUs{
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+  .aContactUs{
+    margin: 0;
+  }
+  .LogoNeti{
+position: absolute;
+left: 10px;
+margin: 0;
+
+  }
+
+
+}
+@media screen and (min-width: 1370px){
+  .aDropDown{
+    text-align: center;
+  }
+  .TabsNavigation{
+display:flex ;
+}
+.toggle-btn{
+  display: none;
+}
+.open{
+  display: none;
+}
+}

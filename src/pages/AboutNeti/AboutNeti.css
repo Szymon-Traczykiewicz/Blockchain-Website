@@ -1,0 +1,130 @@
+.AboutNeti {
+background-color: #F8F8FA;
+margin: 93px 0;
+display: grid;
+gap: 2px;
+position: relative;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-auto-rows: auto;
+}
+.HeaderAndDescript{
+width: 100%;
+}
+
+.ImgBackgroundR{
+width: 15%;
+position: absolute;
+top: 0;
+right: 0;
+}
+.ImgBackgroundM{
+width: 23%;
+position: absolute;
+bottom:  0;
+right: 40%;
+}
+
+.ImageNextDescript{
+display: flex;
+flex-direction: row;
+}
+.ImageAboutNeti{
+width: 45%;
+position: absolute;
+top: 0px;
+left: 0px;
+
+}
+/* .HeaderAndDescript_s5{
+display: flex;
+flex-direction: column;
+bottom: 200px;
+right: 68px;
+position: absolute;
+
+} */
+
+.DescriptAboutNeti{
+margin-top: 68px;
+margin-bottom: 130px;
+margin-right: 114px;
+color: #141415;
+font-family: 'Satoshi-Regular';
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0;
+line-height: 32px;
+}
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+
+
+@media screen and (min-width: 20px) and (max-width: 1000px) {
+
+.AboutNeti {
+display: flex;
+flex-direction: column-reverse;
+
+    }
+    .DIV_header{
+        margin-top: 50px;
+    }
+    .ImgBackgroundM{
+        display: none;
+    }
+    .ImgBackgroundR{
+        width: 30%;
+    }
+    .ImageAboutNeti{
+        position: static;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .HeaderAndDescript{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+    .DescriptAboutNeti{
+        padding: 0 10px;
+margin:85px 0 0 0;
+text-align: center;
+    }
+    .ImageAboutNeti{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .DIV_header {
+        display: flex;
+    }
+}
+@media screen and (min-width: 1001px) and (max-width: 1300px){
+.DescriptAboutNeti{
+    margin-right: 50px;
+}
+.BOXimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ImageAboutNeti{
+    position: static;
+    width: 100%;
+    padding-right: 50px;
+}
+}

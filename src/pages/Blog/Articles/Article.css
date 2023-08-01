@@ -1,0 +1,152 @@
+
+.ArticleContainer{
+padding: 50px 10px 0 10px;
+display: flex;
+flex-direction: column;
+margin: 0 200px;
+}
+li{
+padding-left: 10px;
+margin-bottom: 7px;
+}
+li::marker {
+content: "\2022";
+color: red;
+}
+
+.ImgContent{
+border-radius: 13px;
+justify-content: center;
+}
+.MainHeaderArticle{
+color: #14142B;
+font-style: normal;
+font-weight: 900;
+font-size: 50px;
+line-height: 52px;
+font-family: 'Satoshi-Medium';
+margin-bottom: 50px;
+}
+.DiagramImg{
+width: 600px;
+text-align: center;
+display: flex;
+}
+.DivImgArticle{
+display: flex;
+justify-content: center;
+}
+.ImgArticle{ 
+justify-content: center;
+text-align: center;
+display: flex;
+align-items: center;
+margin-bottom: 15px; 
+width: 100%;
+
+}
+.a6{
+text-decoration: underline;
+cursor: pointer;
+text-decoration: none;
+color: #000;
+}
+
+.ItalicText{
+padding-top: 10px;
+color: #2d2d30;
+font-family: 'Satoshi-Regular';
+font-size: 17px;
+font-style: italic;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.5px;
+}
+.SubHeading{
+margin-top: 45px;
+margin-bottom: 20px;
+font-family: 'Satoshi-Bold';
+font-size: 34px;
+}
+.PlainText{
+
+color: #000;
+font-family: 'Satoshi-Regular';
+font-size: 17px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.5px;
+}
+.ImageInsideContent{
+
+display: flex;
+justify-content: center;
+}
+u{
+color:black
+}
+b{
+color: black;
+font-family: 'Satoshi-Medium';
+font-weight: 600;
+}
+
+.ButtonBrowseAllArticles{
+display: flex;
+margin: 60px auto;
+border-radius: 6px;
+border: 1px solid #D9DBE9;
+padding: 20px;
+}
+.abutton{
+color: #14142B;
+cursor: pointer;
+font-size: 19px;
+font-weight: bold;
+font-family: 'Satoshi-Medium';
+}
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../../public/OTF/Satoshi-Regular.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../../../../public/OTF/Satoshi-Medium.otf');
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px) {
+    .MainHeaderArticle{
+        font-size: 36px;
+    }
+    .SubHeading{
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 1000px) {
+.ArticleContainer {
+margin:  0 ;
+}
+.DiagramImg{
+width: 80%;
+}
+.ImgArticle{
+width: 100%;
+}
+}
+@media screen and (min-width: 0px) and (max-width: 1420px) {
+ul{
+text-align: initial;
+}
+}

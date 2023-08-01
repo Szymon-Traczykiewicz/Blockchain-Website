@@ -1,0 +1,173 @@
+.MainContainer{
+    position: relative;
+    background-color: #F8F8FA;
+}
+.ContainerTechnologies {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: auto;
+  flex-wrap: wrap;
+  padding:0px 65px 123px 65px;
+  position: relative;
+  /* padding-bottom: 188px; */
+}
+
+.TileTechnologies{
+border-radius: 12px;
+border: solid #fff 1px;
+width: 405px ;
+display: flex;
+flex-wrap: wrap;
+line-height: 32px;
+position: relative;
+
+background: rgba(255, 255, 255, 0.7);
+
+}
+
+
+.b_bold{
+/* color: black; */
+}
+.headerourtech{
+    
+    margin: 40px auto;
+    color: black;
+    font-size: 34px;
+}
+.Section_2{
+background-color: #F8F8FA;
+color: #fff;
+font-family: 'Satoshi-Regular';
+display: flex;
+flex-direction: column;
+position: relative;
+
+}
+.Header_Section2{
+    margin-top: 75px;
+    margin-bottom: 82px;
+}
+
+.TopLeftCorner{
+    width: 354px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
+.BottomRightCorner{
+    width: 305px;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    
+}
+
+.wraped3Container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-left: 60px;
+margin-right: 60px;
+}
+
+.TextTileTechnologies{
+width: 352px;
+height: 286px;
+margin: 0px 28px 37px 28px;
+color: black;
+font-size: 18px;
+letter-spacing: 0;
+line-height: 32px;
+text-align: center;
+font-family: 'Satoshi-Regular'
+
+}
+b{
+font-family:'Satoshi-Black' ;
+
+}
+.ImgTileOneTechnologies{
+    width: 321px;
+    height: 160px;
+    margin: 28px 42px 20px 42px;
+}
+.ImgTileTwoTechnologies{
+    width: 170.34px;
+    height: 160px;
+    margin: 32.94px 117.66px 20px 117px;
+}
+.ImgTileThreeTechnologies{
+    width: 321px;
+    height: 160px;
+    margin: 28px 42px 20px 42px;
+}
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+
+@media screen and (min-width: 0px) and (max-width: 510px) {
+.headerourtech{
+    padding-top: 80px;
+}
+.TopLeftCorner{
+  width: 30%;
+}
+.BottomRightCorner{
+    width: 250px;
+}
+.technologies1 {
+    width: 80%;
+}
+.ContainerTechnologies{
+    padding: 0 10px;
+}
+.TileTechnologies{
+    width: 100%;
+align-self: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aquamarine; */
+    height: auto;
+}
+.TextTileTechnologies{
+    width: auto;
+    height: auto;
+}
+.TileTechnologies:last-child {
+    margin-bottom: 105px;
+}
+.headerourtech{
+  margin-top: 70px;
+  justify-content: center;
+
+}
+}@media screen and (min-width: 510px) {
+    .headerourtech {
+            padding-top: 100px;
+            justify-content: center;
+        }
+                .TopLeftCorner {
+                    width: 280px;
+                }
+}

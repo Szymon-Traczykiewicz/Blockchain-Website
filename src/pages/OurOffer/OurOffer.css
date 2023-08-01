@@ -1,0 +1,412 @@
+
+.FourTileGrid {
+margin: 0 77px;
+gap: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+grid-auto-rows: 400px;
+}
+
+.BoxOne, .BoxTwo, .BoxThree,  .BoxFour {
+display: flex;
+box-sizing: border-box;
+transition: transform 0.25s ease-out ;
+border-radius: 13px;
+border: 1px solid #D9DBE9;
+background-color: #fff;
+flex-wrap: wrap;
+position: relative;
+}
+
+.BoxOne:hover, .BoxTwo:hover, .BoxThree:hover, .BoxFour:hover {
+transform: scale(1.05);
+box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.HeaderOurOffer{
+    font-size: 50px;
+}
+.Header{
+margin-top: 60px;
+justify-content: center;
+display: flex;
+margin-bottom: 20px;
+}
+.PlainTextOffer{
+word-wrap: break-word;
+max-width: 832px;
+font-size: 20px;
+line-height: 34px;
+font-weight: 400;
+color: #141415;
+margin: 0 auto 60px auto;
+font-family: 'Satoshi-Regular';
+text-align: center;
+
+padding: 0 10px;
+}
+
+.ImgSingleBoxOne{
+position: absolute;
+right: 0;
+width: 287px;
+height: 308px;
+top: 13px;
+}
+.ImgSingleBoxTwo{
+position: absolute;
+right: 0;
+width: 280px;
+height: 307px;
+bottom: 56px;
+}
+.ImgSingleBoxThree{
+position: absolute;
+right: 0;
+width: 289px;
+height: 309px;
+bottom: 40px;
+}
+.ImgSingleBoxFour{
+position: absolute;
+right: 0;
+width: 289px;
+height: 309px;
+bottom: 17px;
+}
+.HeadingAndSubsection{
+display: flex;
+flex-direction: column;
+margin-left: 5px;
+margin-top: 20px;
+position: relative;
+
+}
+.SubHeadingOffer{
+color: #000000;
+font-weight: 700;
+margin-bottom: 20px;
+font-size: 28px;
+line-height: 42px;
+font-family: 'Satoshi-Medium';
+margin-left:30px;
+}
+.spanoffer{
+
+margin-left: 10px;
+font-family: 'Satoshi-Regular';
+font-size: 18px;
+line-height: 30px;
+}
+.lioffer{
+/* padding-left: 30px; */
+margin-bottom: 7px;
+}
+.lioffer::marker{
+color: #141415;
+}
+
+.aButtonLearnMore{
+display: flex;
+align-items: center;
+font-style: normal;
+color: #ED0000;
+font-weight: 700;
+font-size: 18px;
+line-height: 30px;
+cursor: pointer;
+font-family: 'Satoshi-Bold';
+margin-left: 30px;
+margin-bottom: 30px;
+
+}
+.ButtonLearnMoreimg{
+width: 8px;
+height: 15px;
+margin-left: 11px;
+margin-top: 5px;
+}
+.ButtonLearnMoreimg:hover{
+color: #4a0505;
+}
+.aButtonLearnMore:hover{
+color: #7d0f0f;
+}
+
+.custom_ul{
+    /* list-style: none; */
+        padding: 0;
+        margin: 0;
+}
+.headerContactUs{
+font-family: 'Satoshi-Black';
+font-weight: 900;
+text-align: center;
+padding: 20px 0;
+font-size: 28px;
+
+}
+
+.BlockContactUs{
+margin:75px 77px 130px 77px;
+justify-content: center;
+display: grid;
+
+background: #F6F7FF;
+border-radius: 13px;
+position: relative;
+height: auto;
+}
+
+.Imgbubble{
+position: absolute;
+right: 0;
+bottom: 0;
+width: 20%;
+}
+.ContactUsOffer{
+display: flex;
+flex-direction: column;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.aContactUsOffer {
+flex-wrap: wrap;
+text-decoration: none;
+color: #fff;
+width: 193px;
+height: 57px;
+border-radius: 6px;
+font-size: 18px;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+background-color: red;
+margin: 0 auto;
+margin-bottom: 47px;
+}
+.aContactUsOffer:hover{
+background-color: #460c0c;
+color: #fff;
+}
+
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../../../public/OTF/Satoshi-Medium.otf');
+}
+
+@media screen and (min-width: 0px) and (max-width: 1360px) {
+
+    .BoxOne:hover,
+    .BoxTwo:hover,
+    .BoxThree:hover,
+    .BoxFour:hover
+    {
+transform: none;
+box-shadow: none;
+    }
+}
+
+/* media screen 0-600////////////////////////////// */
+
+
+@media screen and (min-width: 0px) and (max-width: 600px){
+.Imgbubble {
+display: none;
+
+}
+.HeaderOurOffer{
+    font-size: 34px;
+}
+.FourTileGrid {
+margin: 0px;
+padding: 0 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-auto-rows: auto;
+
+}
+
+.BoxOne, .BoxTwo, .BoxThree, .BoxFour {
+display: flex;
+justify-content: center;
+transition: none;
+flex-wrap: wrap;
+position: static;
+flex-direction: column-reverse;
+
+}
+.ImgSingleBoxOne{
+
+content: url('http://localhost:1337/uploads/Blockchain_Consulting_RWD_f111d3e47c.png');
+
+}
+.ImgSingleBoxTwo{
+
+content: url('http://localhost:1337/uploads/Blockchain_Development_RWD_6fe0b91f7b.png');
+
+
+}
+.ImgSingleBoxThree{
+
+content: url('http://localhost:1337/uploads/Software_Development_RWD_761ea1fb45.png');
+
+}
+.ImgSingleBoxFour{
+
+content: url('http://localhost:1337/uploads/UX_UI_RWD_2c7e482fb9.png');
+
+}
+.div{
+display: flex;
+justify-content: center;
+}
+.ImgSingleBoxOne, .ImgSingleBoxTwo, .ImgSingleBoxThree, .ImgSingleBoxFour {
+
+margin-top: 20px;
+width: 50%;
+height:auto;
+position: static;
+}
+
+.SubHeadingOffer{
+margin-left:30px;
+margin-top: 0px;
+font-size: 26px;
+}
+}
+
+@media screen and (min-width: 0px) and (max-width: 710px){
+.BlockContactUs {
+margin-left: 10px;
+margin-right: 10px;
+}
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 850px) {
+.FourTileGrid {
+margin: 0px;
+padding: 0 10px;
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+grid-auto-rows: auto;
+
+}
+.BoxOne, .BoxTwo, .BoxThree, .BoxFour:hover{
+transform: none;
+}
+
+.BoxOne:hover,
+.BoxTwo:hover,
+.BoxThree:hover,
+.BoxFour:hover {
+transform: none;
+
+}
+
+.BoxOne, .BoxTwo, .BoxThree, .BoxFour {
+display: flex;
+justify-content: unset;
+
+flex-wrap: wrap;
+position: relative;
+padding: 0px;
+
+}
+.SubHeadingOffer{
+margin-left: 30px;
+}
+.lioffer{
+/* padding-left: 30px; */
+margin-bottom: 7px;
+}
+
+.ImgSingleBoxOne, .ImgSingleBoxTwo, .ImgSingleBoxThree, .ImgSingleBoxFour {
+width: 287px;
+height: auto;
+position: absolute;
+}
+}
+
+@media screen and (min-width: 700px) and (max-width: 850px){
+.FourTileGrid {
+padding: 0 95px;
+}
+}
+
+@media screen and (min-width:1100px){
+.FourTileGrid{
+margin: 0 10px;
+}
+}
+
+@media screen and (min-width:601px) and (max-width:1099px) {
+    .FourTileGrid{
+        grid-auto-rows: unset;
+    }
+}
+@media screen and (min-width:1100px) and (max-width:1379px) {
+.aButtonLearnMore{
+position: absolute;
+margin-bottom:0;
+bottom:20px
+}
+}
+@media screen and (min-width:1380px) {
+.FourTileGrid {
+margin: 0 77px;
+gap: 10px;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+grid-auto-rows: auto;
+}
+.BoxOne {
+    width: 614px;
+    height: 340px;
+    position: relative;
+    justify-content:unset;
+}
+.BoxTwo {
+width: 616px;
+height: 410px;
+position: relative;
+justify-content: unset;
+}
+
+.BoxThree {
+margin-top: -50px;
+width: 614px;
+height: 410px;
+position: relative;
+justify-content: unset;
+}
+.BoxFour {
+margin-top: 20px;
+width: 616px;
+height: 340px;
+position: relative;
+justify-content: unset;
+}
+.BlockContactUs{
+margin-right: 90px;
+}
+}

@@ -1,0 +1,71 @@
+
+.HeaderAndLogo{
+display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+justify-content: center;
+
+}
+.Main_Header_Section{
+    font-family: 'Satoshi-Black';
+    /* margin: 0 auto; */
+    font-size: 34px;
+    font-weight: 900;
+    letter-spacing: 0;
+    align-items: center;
+    /* justify-content: center; */
+    display: flex;
+    text-align: center;
+
+
+}
+.SmallLogo {
+
+width: 7px;
+position: relative;
+height: 25px;
+margin-right: 10px;
+display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.circle_red {
+width: 7px;
+border-radius: 6px;
+height: 7px;
+background-color: red;
+
+}
+.circles{
+position: absolute;
+right: 5px;
+top:3px;
+
+    
+
+}
+@font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../../public/OTF/Satoshi-Regular.otf');
+}
+@media screen and (min-width: 0px) and (max-width:530px) {
+    .SmallLogo {
+        display: none;
+        
+    }
+    .Main_Header_Section{
+        font-size: 28px;
+    }
+}

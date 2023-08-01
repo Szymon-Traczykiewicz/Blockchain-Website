@@ -1,0 +1,305 @@
+
+.ContainerVOHC{
+position: relative;
+display: grid;
+padding: 0 77px;
+flex-wrap: wrap;
+gap: 10px;
+align-items: center;
+grid-auto-rows: auto;
+height: 600px;
+grid-template-columns: 15px 1fr  15px;
+}
+.boxVOHC{
+
+gap: 10px;
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+grid-auto-rows: auto;
+
+}
+.divImage{
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+.divSlider2{
+display: flex;
+flex-direction: row;
+}
+
+.PrevSlide{
+display: flex;
+align-items: center;
+width: 15px;
+
+}
+.NextSlide{
+display: flex;
+align-items: center;
+width: 15px;
+padding-left: 80px;
+}
+.HeaderVOHC{
+margin-top: 130px;
+display: flex;
+justify-content: center;
+}
+
+.ImgPrevSlide {
+width: 15px;
+height: 30px;
+
+
+}
+.ImgNextSlide {
+width: 15px;
+height: 30px;
+}
+.Section_4 {
+background-color: #fff;
+color: #141415;
+font-family: 'Satoshi-Regular';
+display: flex;
+flex-direction: column;
+
+}
+
+.Header_Section4 {
+margin-top: 10px;
+font-size: 34px;
+letter-spacing: 0;
+line-height: 42px;
+margin-top: 110px;
+margin-left: 605px;
+
+}
+
+.HeaderAndDescription {
+text-align: left;
+
+}
+.DescriptionAndImage{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.Image1{
+margin-top: 14px;
+width: 346px;
+height: auto;
+margin-left: 120px;
+
+}
+.Image2{
+width: 346px;
+height: auto;
+margin-left: 120px;
+
+}
+.Description {
+margin-top: 41px;
+height: 210px;
+width: 655px;
+color: #141415;
+font-family: 'Satoshi-Regular';
+font-size: 18px;
+letter-spacing: 0;
+line-height: 30px;
+text-align: left;
+margin-left: 58px;
+}
+
+.person {
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+}
+
+.personName {
+font-family: 'Satoshi-Bold';
+font-size: 16px;
+color: #141415;
+letter-spacing: 0;
+line-height: 24px;
+
+}
+
+
+.personIdentity {
+
+
+color: #141415;
+font-family: 'Satoshi-Regular';
+font-size: 14px;
+letter-spacing: 0;
+line-height: 24px;
+}
+
+
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+@media screen and (min-width: 250px) and (max-width: 530px){
+
+}
+@media screen and (min-width: 20px){
+.small{
+display: flex;
+
+}
+.HeaderVOHC{
+
+}
+
+.ContainerVOHC{
+height:auto;
+padding: 0 10px;
+gap: 0; 
+
+}
+.divSlider2{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.Description{
+width:auto ;
+margin-left: 0;
+
+padding-bottom:300px ;
+}
+.Image1, .Image2{
+width: 80%;
+margin-left: 0;
+}
+.NextSlide{
+padding-left: 0;
+}
+.ImgPrevSlide{
+margin-bottom: 460px;
+}
+.ImgNextSlide{
+margin-bottom:450px;
+}
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px){
+.ContainerVOHC {
+
+padding: 0 20px;
+}
+
+
+.divSlider2 {
+display: flex;
+flex-direction: row;
+}
+
+.PrevSlide {
+margin-bottom: -190px;
+}
+
+.NextSlide {
+
+display: flex;
+align-items: center;
+width: 15px;
+padding-left: 10px;
+margin-bottom: -190px;
+}
+
+
+
+.Image1 {
+
+margin-bottom: 200px;
+width: 346px;
+height: auto;
+
+
+}
+
+.Image2 {
+margin-bottom: 200px;
+width: 346px;
+height: auto;
+margin-left: 0px;
+
+}
+
+}
+
+@media screen and (min-width: 1201px){
+.ContainerVOHC {
+
+
+
+}
+.PrevSlide{
+align-items: center;
+justify-content: center;
+display: flex;
+padding-bottom: 200px
+}
+.NextSlide{
+align-items: center;
+justify-content: center;
+display: flex;
+padding-bottom: 200px;
+}
+.ImgNextSlide{
+margin-bottom:0px ;
+}
+.ImgPrevSlide{
+margin-bottom: 0px;
+}
+
+.divSlider2 {
+display: flex;
+flex-direction: row;
+}
+
+.Image1 {
+margin-top: 0px;
+width: 346px;
+height: auto;
+margin-bottom: 200px;
+margin-left: 0px;
+
+}
+
+.Image2 {
+margin-top: 0px;
+width: 346px;
+height: auto;
+margin-bottom: 200px;
+margin-left: 0px;
+
+}
+
+.Description {
+margin-top: 41px;
+height: 210px;
+width: 655px;
+padding-bottom: 0;
+line-height: 30px;
+text-align: left;
+margin-left: 58px;
+}
+}

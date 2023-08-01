@@ -1,0 +1,187 @@
+.Footer{
+display: flex;
+flex-direction: column;
+padding-left: 25px;
+border-top: 1px solid #d9dbe9;
+}
+.ContainerFooter{
+padding-top: 70px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+}
+.AddressAndLogo{
+display: flex;
+flex-direction: column;
+}
+.LogoNetiFooter{
+margin-bottom: 31px;
+width: 126px;
+height: 47px;
+transition: transform 0.25s;
+cursor: pointer;
+}
+.LogoNetiFooter:hover{
+transition: 1s;
+transform: translateY(-6px);
+transition: transform 0.25s ease-out 0.25s;
+}
+.FooterAddress{
+display: flex;
+flex-direction: column;
+
+}
+.Services{
+display: flex;
+flex-direction: column;
+/* margin-left: 311px;
+margin-right: 302px; */
+}
+.TwoImage{
+display: flex;
+flex-direction: column;
+}
+
+.imgClutch{
+width: 236x;
+height: 55px;
+margin-left: 30px;
+margin-bottom: 7px;
+
+}
+.ListBlockchainTechnologyCompanies{
+width: 193x;
+height: 162px;
+}
+.Copyright{
+font-family: 'Satoshi-Regular';
+}
+h4{
+font-family: 'Satoshi-Regular';
+font-size: 18px;
+}
+span{
+padding: 5px 0;
+font-family: 'Satoshi-Regular';
+}
+a{
+text-decoration: none;
+/* font-family: 'Satoshi-Regular';
+background-color: transparent; */
+/* transition: color .3s; */
+/* ustawienie podstawowych stylów */
+/* color: black; */
+/* background-color: transparent;
+opacity: 1;
+transition: opacity 0.5s ease, color 0.5s ease; */
+} 
+a:hover {
+/* zmiana koloru tła na podświetlony i zmniejszenie przezroczystości */
+/* background-color: #943333; */
+/* opacity: 0.5; */
+/* color: #121010; */
+}
+.SocialMediaCopyRight{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.SocialMedia{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+width: 342px;
+
+}
+.IMGSocialMedia{
+width: 30px;
+height: 30px;
+transition: transform 0.25s;
+cursor: pointer;
+}
+.IMGSocialMedia:hover{
+transition: 1s;
+transform: translateY(-6px);
+transition: transform 0.25s ease-out 0.25s;
+}
+
+
+
+
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../public/OTF/Satoshi-Regular.otf');
+}
+
+@media screen and (min-width: 20px) and (max-width: 850px) {
+.Footer{
+padding-left: 0;
+}
+.LogoNetiFooter{
+    margin-left: 50px;
+}
+.FooterAddress{
+    margin-left: 50px;
+    
+}
+.Services{
+    margin-left: 50px;
+
+}
+.TwoImage{
+margin: 0 auto;
+}
+
+.textCopyright{
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+.AddressAndLogo{
+margin-right: 20px;
+
+}
+.SocialMedia{
+margin-top: 20px;
+margin-bottom: 50px;
+display: flex;
+/* justify-content: center; */
+/* align-items: center; */
+text-align: center;
+}
+.Copyright{
+margin-top: 20px;
+}
+.Services{
+margin-right: 20px;
+}
+.imgClutch{
+margin-top: 20px;
+}
+.ListBlockchainTechnologyCompanies{
+margin-top: 20px;
+margin-right: 20px;
+}
+.SocialMediaCopyRight{
+margin-left: 20px;
+margin-top: 20px;
+}
+}

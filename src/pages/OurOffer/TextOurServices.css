@@ -1,0 +1,36 @@
+.ReadMore{
+/* display: flex; */
+    /* position: absolute; */
+/* flex-direction: column; */
+/* box-sizing: border-box; */
+/* border: 1px solid #D9DBE9; */
+/* border-radius: 6px; */
+/* background-color: #fff; */
+/* font-family: 'Satoshi-Bold'; */
+/* font-size: 18px; */
+/* color: black; */
+/* opacity: 0.7; */
+/* letter-spacing: 0; */
+/* line-height: 32px; */
+/* padding: 10px 25px; */
+/* margin: 10px auto 0px auto; */
+}
+a{
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: 'Satoshi-Black';
+    src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('../../../public/OTF/Satoshi-Regular.otf');
+}

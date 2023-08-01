@@ -1,0 +1,42 @@
+.BackToOffer{
+    margin-left: 0px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.ImgBackToOffer{
+width: 15px;
+height: 15px;
+}
+.TextBackToOffer{
+margin-left: 6px;
+font-family: 'Satoshi-regular';
+color: #777990;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 24px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../../../public/OTF/Satoshi-Medium.otf');
+}

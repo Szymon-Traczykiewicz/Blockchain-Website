@@ -1,0 +1,159 @@
+.InitialPart{
+display: grid;
+gap:0px;
+grid-auto-rows: auto;
+margin-top: 130px ;
+}
+.TextAndButton{
+justify-content: center;
+display: flex;
+word-wrap: break-word;
+flex-wrap: wrap;
+
+
+}
+
+.box{
+position: relative;
+}
+
+.HeaderInitialPart{
+display: flex;
+font-family:'Satoshi-Black' ;
+font-size: 52px;
+font-weight: 600;
+text-align: left;
+word-wrap: break-word;
+
+}
+.card_s1{
+margin: 0 auto;
+}
+
+
+.InitialPartPicture {
+left: 12px;
+top:0px;
+width: 100%; 
+height: auto;
+}
+
+.TextAndButton{
+display: flex;
+flex-direction: column;
+
+
+
+}
+.BookFreeConsultation:hover{
+background-color: #7d0f0f;
+}
+.BookFreeConsultation{
+border-radius: 6px;
+margin-top: 47px;
+font-size: 16px;
+width: 253px;
+height: 57px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #ED0000;
+color: #fff;
+font-family: 'Satoshi-Bold';
+
+}
+.InitialPartClutch{
+margin: 83px 0px;
+width: 196px;
+height: 60px;
+}
+
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@media screen and (min-width: 0px) and (max-width: 500px){
+    .HeaderInitialPart{
+        font-size: 36px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+body{
+margin-top: 0;
+}
+.HeaderInitialPart{
+padding: 0 10px;
+text-align: center;
+/* font-size: 50px; */
+}
+.TextAndButton {
+
+align-items: center;
+
+}
+.InitialPart{
+flex-direction: column-reverse;
+display: flex;
+margin-top: 10px;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+padding: 25px 10px;
+
+}
+.InitialPartPicture{
+position: static;
+width: 100%;
+padding: 0 10px;
+
+
+}
+.box{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+@media screen and (min-width: 665px){
+.InitialPartPicture{
+margin: unset;
+}
+.InitialPart {
+flex-direction:unset;
+}
+body{
+margin-top: 90px;
+}
+.HeaderInitialPart{
+text-align: left;
+}
+.InitialPart{
+padding: 0 10px;
+}
+.box{
+
+align-items: flex-start;
+}
+.TextAndButton {
+align-items: initial;
+}
+}
+
+@media screen and (min-width: 1100px){
+.InitialPart {
+padding: 0 75px;
+}
+}
+
+
+
+}

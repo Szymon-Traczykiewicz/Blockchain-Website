@@ -1,0 +1,43 @@
+.buttontag{
+background: #F7F8FF;
+
+
+    border-radius: 6px;
+        padding: 5px 23px;
+
+
+ 
+        /* margin-right: 20px; */
+        /* margin-bottom: 15px; */
+        
+    }
+    .Textbutton{
+color: #141415;
+line-height: 32px;
+
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 32px;
+font-family: 'Satoshi-Medium';
+
+}
+
+@font-face {
+font-family: 'Satoshi-Black';
+src: url('../../../public/OTF/Satoshi-Black.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Bold';
+src: url('../../../public/OTF/Satoshi-Bold.otf');
+}
+
+@font-face {
+font-family: 'Satoshi-Regular';
+src: url('../../../public/OTF/Satoshi-Regular.otf');
+}
+@font-face {
+font-family: 'Satoshi-Medium';
+src: url('../../../public/OTF/Satoshi-Medium.otf');
+}
